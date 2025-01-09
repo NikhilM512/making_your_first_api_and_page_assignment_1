@@ -6,6 +6,8 @@ const app = express();
 Task:
 You need to build an API for a virtual assistant that provides customized responses.
 
+
+
 Requirements:
 1. Create a GET endpoint at "/assistant/greet".
 2. The endpoint should accept a "name" as a query parameter (e.g., /assistant/greet?name=John).
@@ -37,3 +39,6 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Virtual Assistant API is running on http://localhost:${PORT}`);
 });
+
+
+
